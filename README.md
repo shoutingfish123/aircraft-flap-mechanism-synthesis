@@ -22,7 +22,7 @@ This project focused on understanding the governing theory of **Three-Position S
       <td align="center">
         <img src="assets/ss-derive.jpg" width="400" alt="Vector Loop Model">
         <br>
-        <strong>Derivation Model (Vector Loop) sketeched in AutoCAD</strong>
+        <strong>Derivation Model (Vector Loop) sketched in AutoCAD</strong>
       </td>
       <td align="center">
         <img src="assets/ss-validate.jpg" width="400" alt="Transmission Angle">
