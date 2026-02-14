@@ -34,18 +34,18 @@ This project focused on understanding the governing theory of **Three-Position S
 </div>
 
 ## Key Objectives
-* *Mathematical Derivation:* Derived the loop-closure equations for three-position synthesis of four-bar linkages.
-* *Algorithmic Implementation:* Developed a MATLAB solver to automate the synthesis process, taking three points which the coupler link passes through and outputting the required link lengths.
-* *Validation:* Verified the code against standard textbook examples to ensure numerical accuracy.
-* *Real-world Application:* Applied the validated algorithm to reverse-calculate the dimensions of a **Boeing 777** single slotted fowler flap mechanism.
+* **Mathematical Derivation:** Derived the loop-closure equations for three-position synthesis of four-bar linkages.
+* **Algorithmic Implementation:** Developed a MATLAB solver to automate the synthesis process, taking three points which the coupler link passes through and outputting the required link lengths.
+* **Validation:** Verified the code against standard textbook examples to ensure numerical accuracy.
+* **Real-world Application:** Applied the validated algorithm to reverse-calculate the dimensions of a **Boeing 777** single slotted fowler flap mechanism.
 
 ## Methodology
 The project followed a systematic "Theory-to-Application" workflow:
 
-1.  *Theoretical Framework:* Studied the rigid body guidance problem and derived the analytical synthesis equations for a 4-bar mechanism.
-2.  *Code Development:* Wrote modular MATLAB scripts to solve the resulting linear system of equations.
-3.  *Benchmarking:* Validated the solver using a known textbook problem to confirm that the computed link lengths matched the expected values.
-4.  *Case Study for Boeing 777 Flap:*
+1.  **Theoretical Framework:** Studied the rigid body guidance problem and derived the analytical synthesis equations for a 4-bar mechanism.
+2.  **Code Development:** Wrote modular MATLAB scripts to solve the resulting linear system of equations.
+3.  **Benchmarking:** Validated the solver using a known textbook problem to confirm that the computed link lengths matched the expected values.
+4.  **Case Study for Boeing 777 Flap:**
     * *Input:* Extracted the three points that the coupler link (attached to the flap airfoil) passes through during opration (stowed, take-off, landing).
     * *Process:* Fed these positions into the MATLAB solver.
     * *Output:* Successfully obtained the correct geometric link lengths (<4mm error) for the actuation mechanism.
