@@ -4,9 +4,9 @@
 ![Domain](https://img.shields.io/badge/Aerospace-Kinematics-red)
 
 ## Overview
-This repository contains the *mathematical implementation and validation* of a kinematic synthesis technique, namely *Three Position Synthesis* for the outboard single slotted fowler flap mechanism used in aircraft, developed during my internship at *CSIR-National Aerospace Laboratories (CSIR-NAL)* from May to July 2025.
+This repository contains the **mathematical implementation and validation** of a kinematic synthesis technique, namely **Three Position Synthesis** for the outboard single slotted fowler flap mechanism used in aircraft, developed during my internship at **CSIR-National Aerospace Laboratories (CSIR-NAL)** from May to July 2025.
 
-This project focused on understanding the governing theory of *Three-Position Synthesis* for four-bar linkages, implementing these derivations in MATLAB, and applying the solver to determine the link lengths of a real-world *Boeing 777* outboard flap mechanism.
+This project focused on understanding the governing theory of **Three-Position Synthesis** for four-bar linkages, implementing these derivations in MATLAB, and applying the solver to determine the link lengths of a real-world **Boeing 777** outboard flap mechanism.
 
 <h2 align="center">Mechanism Analysis & Simulation</h2>
 
@@ -20,12 +20,12 @@ This project focused on understanding the governing theory of *Three-Position Sy
   <table>
     <tr>
       <td align="center">
-        <img src="assets/ss_derive.png" width="400" alt="Vector Loop Model">
+        <img src="assets/ss-derive.png" width="400" alt="Vector Loop Model">
         <br>
         <strong>Derivation Model (Vector Loop)</strong>
       </td>
       <td align="center">
-        <img src="assets/ss_validate.png" width="400" alt="Transmission Angle">
+        <img src="assets/ss-validate.png" width="400" alt="Transmission Angle">
         <br>
         <strong>Validation Model</strong>
       </td>
@@ -37,7 +37,7 @@ This project focused on understanding the governing theory of *Three-Position Sy
 * *Mathematical Derivation:* Derived the loop-closure equations for three-position synthesis of four-bar linkages.
 * *Algorithmic Implementation:* Developed a MATLAB solver to automate the synthesis process, taking three points which the follower link passes through and outputting the required link lengths.
 * *Validation:* Verified the code against standard textbook examples to ensure numerical accuracy.
-* *Real-world Application:* Applied the validated algorithm to reverse-calculate the dimensions of a *Boeing 777* single slotted fowler flap mechanism.
+* *Real-world Application:* Applied the validated algorithm to reverse-calculate the dimensions of a **Boeing 777** single slotted fowler flap mechanism.
 
 ## Methodology
 The project followed a systematic "Theory-to-Application" workflow:
