@@ -20,12 +20,12 @@ This project focused on understanding the governing theory of **Three-Position S
   <table>
     <tr>
       <td align="center">
-        <img src="assets/ss-derive.png" width="400" alt="Vector Loop Model">
+        <img src="assets/ss-derive.jpg" width="400" alt="Vector Loop Model">
         <br>
         <strong>Derivation Model (Vector Loop)</strong>
       </td>
       <td align="center">
-        <img src="assets/ss-validate.png" width="400" alt="Transmission Angle">
+        <img src="assets/ss-validate.jpg" width="400" alt="Transmission Angle">
         <br>
         <strong>Validation Model</strong>
       </td>
