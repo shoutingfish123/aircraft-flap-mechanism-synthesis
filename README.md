@@ -1,5 +1,5 @@
 # Kinematic Synthesis of Aircraft Flap Actuation Mechanism
-![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2024b-orange)
 
 ## Overview
 This repository contains the **mathematical implementation and validation** of a kinematic synthesis technique, namely **Three Position Synthesis** for the outboard single slotted fowler flap mechanism used in aircraft, developed during my internship at **CSIR-National Aerospace Laboratories (CSIR-NAL)** from May to July 2025.
